@@ -53,6 +53,9 @@ button:hover {
   background-color: #8F9939;
   color: white;
 }
+button div {
+  transform: skew(-14deg);
+}
 input:focus {
   outline: none;
 }
