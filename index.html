@@ -7,8 +7,6 @@
   <title>JUSTFIT</title>
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
-  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -18,7 +16,7 @@
 <div class="wrapper">
   <nav class="main-nav">
     <div class="main-nav__logo">
-      <a href="#">
+      <a href="#" id"home">
         <img src="img/logo.png" alt="logo">
         <span>ФРАНШИЗА</span>
         <span>нового поколения</span>
@@ -27,20 +25,20 @@
     </div>
     <ul>
       <li>
-        <a href="#">Преимущества</a>
-        <a href="#">Оборудование</a>
+        <a href="#" id="secret">Преимущества</a>
+        <a href="#" id="equip">Оборудование</a>
       </li>
       <li>
-        <a href="#">Франшиза</a>
-        <a href="#">Калькулятор</a>
+        <a href="#" id="franchise">Франшиза</a>
+        <a href="#" id="calculator">Калькулятор</a>
       </li>
       <li>
-        <a href="#">Партнерство</a>
-        <a href="#">Прибыль</a>
+        <a href="#" id="howto">Партнерство</a>
+        <a href="#" id="studios">Прибыль</a>
       </li>
       <li>
-        <a href="#">JustFit в мире</a>
-        <a href="#">Контакты</a>
+        <a href="#" id="world">JustFit в мире</a>
+        <a href="#" id="contacts">Контакты</a>
       </li>
       <li class="main-nav__phone">
         <a href="tel:(+79608250005)">+7 960-825-00-05</a>
@@ -48,7 +46,7 @@
       </li>
     </ul>
   </nav>
-  <section class="home">
+  <section class="home" id="home">
     <div class="home__bg-coach">
       <div class="home__bg-dotted">
         <div class="home__bg-darken">
@@ -65,7 +63,7 @@
       </div>
     </div>
   </section>
-  <section class="secret">
+  <section class="secret" id="secret">
     <div class="secret__sqr-770"></div>
     <div class="secret__sqr-725"></div>
     <div class="secret__sqr-545"></div>
@@ -104,7 +102,7 @@
     </div>
 
   </section>
-  <section class="equip">
+  <section class="equip" id="equip">
     <div class="sqr-green"></div>
     <h2>Оборудование</h2>
     <div class="equip__slider">
@@ -148,7 +146,7 @@
       </div>
     </div>
   </section>
-  <section class="franchise">
+  <section class="franchise" id="franchise">
     <div class="franchise__sqr-880"></div>
     <div class="franchise__sqr-610"></div>
     <div class="sqr-green"></div>
@@ -226,7 +224,7 @@
       </figure>
     </div>
   </section>
-  <section class="calculator">
+  <section class="calculator" id="calculator">
     <div class="sqr-green"></div>
     <h2>Калькулятор вашей прибыли</h2>
     <div class="slider-wrapper">
@@ -275,7 +273,7 @@
     <div class="calculator__triangle-270"><span>Вам уже интересно?</span></div>
     <div class="calculator__bepartner"><span>СТАТЬ ПАРТНЕРОМ</span></div>
   </section>
-  <section class="howto">
+  <section class="howto" id="howto">
     <div class="sqr-green"></div>
     <h2>Как стать партнёром?</h2>
     <div class="howto__sqr-410"></div>
@@ -311,7 +309,7 @@
       </div>
     </div>
   </section>
-  <section class="studios">
+  <section class="studios" id="studios">
     <div class="sqr-green"></div>
     <h2>Уже открытые студии</h2>
     <div class="studios__wrapper">
@@ -337,11 +335,11 @@
     <a href="#">Ещё студии</a>
     <button type="button" name="button"><div>хотите такую же</div></button>
   </section>
-  <section class="world">
+  <section class="world" id="world">
     <div class="sqr-green"></div>
     <h2>Justfit в мире</h2>
   </section>
-  <section class="contacts">
+  <section class="contacts" id="contacts">
     <div class="sqr-green"></div>
     <h2>Контакты</h2>
     <p>Самара, ТЦ «Сила Спорта», Московское шоссе, д.17<span>Телефон для связи: +7 (960) 825-00-05</span></p>
@@ -358,13 +356,9 @@
   </footer>
 </div>
 
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="js/slider.js"></script>
   <script src="js/jq-nav.js"></script>
-
-
   <script src="http://localhost:35729/livereload.js"></script>
 </body>
 </html>

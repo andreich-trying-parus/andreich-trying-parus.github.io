@@ -53,27 +53,21 @@ button:hover {
   background-color: #8F9939;
   color: white;
 }
-button div {
-  transform: skewX(-14deg);
-}
 input:focus {
   outline: none;
 }
 
-
-
-
 /*************************************************************
 ************************** НАВИГАЦИЯ *************************
 *************************************************************/
-
 .main-nav {
   width: 1600px;
+  height: 78px;
   background-color: #9fa0a3;
-  min-height: 100%;
   font-weight: 500;
   display: flex;
   justify-content: center;
+  z-index: 1000;
 }
 .main-nav ul {
   width: 70%;
