@@ -23,3 +23,16 @@
         })
     }
 })(jQuery);
+
+(function(fr1) {
+    var fr;
+    fr1(".franchise__nav").on("click", "li:not(.franchise__li--active)", function() {
+        fr = fr1(this).parents(".franchise__wrapper"), fr1(this).fuckTab(fr)
+    }), fr1.fn.fuckTab = function(fr) {
+        fr1(this).addClass("franchise__li--active").siblings().removeClass("franchise__li--active"), fr.find(".franchise__item").eq(fr1(this).index()).show(1, function() {
+            fr1(this).addClass(".franchise__item--active")
+        }).siblings(".franchise__item").hide(1, function() {
+            fr1(this).removeClass(".franchise__item--active")
+        })
+    }
+})(jQuery);
