@@ -1820,7 +1820,7 @@ footer span:first-child {
   }
 }
 
-@media all and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .list-mobile-header {
     display: flex;
   }
@@ -1999,7 +1999,7 @@ footer span:first-child {
   }
 }
 
-@media all and (max-width: 800px) {
+@media (max-width: 800px) {
   .advantages__coach {
     display: none;
   }
