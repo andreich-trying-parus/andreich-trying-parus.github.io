@@ -2188,7 +2188,7 @@ footer span:first-child {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 601px) {
   .advantages {
     max-height: 100%;
   }
