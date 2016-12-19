@@ -1,0 +1,77 @@
+/* ROBOTO-FONT */
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Light'), local('Roboto-Light'), url('../fonts/roboto/robotolight.woff2') format('woff2'), url('../fonts/roboto/robotolight.woff') format('woff'), url('../fonts/roboto/robotolight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Light Italic'), local('Roboto-LightItalic'), url('../fonts/roboto/robotolightitalic.woff2') format('woff2'), url('../fonts/roboto/robotolightitalic.woff') format('woff'), url('../fonts/roboto/robotolightitalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto'), local('Roboto-Regular'), url('../fonts/roboto/roboto.woff2') format('woff2'), url('../fonts/roboto/roboto.woff') format('woff'), url('../fonts/roboto/roboto.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Italic'), local('Roboto-Italic'), url('../fonts/roboto/robotoitalic.woff2') format('woff2'), url('../fonts/roboto/robotoitalic.woff') format('woff'), url('../fonts/roboto/robotoitalic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Bold'), local('Roboto-Bold'), url('../fonts/roboto/robotobold.woff2') format('woff2'), url('../fonts/roboto/robotobold.woff') format('woff'), url('../fonts/roboto/robotobold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url('../fonts/roboto/robotobolditalic.woff2') format('woff2'), url('../fonts/roboto/robotobolditalic.woff') format('woff'), url('../fonts/roboto/robotobolditalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* RUBIK-FONT */
+
+@font-face {
+    font-family: 'Rubik';
+    src: local('Rubik'), local('Rubik-Regular'), url('../fonts/rubik/Rubik.woff2') format('woff2'), url('../fonts/rubik/Rubik.woff') format('woff'), url('../fonts/rubik/Rubik.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Rubik';
+    src: local('Rubik Italic'), local('Rubik-Italic'), url('../fonts/rubik/Rubikitalic.woff2') format('woff2'), url('../fonts/rubik/Rubikitalic.woff') format('woff'), url('../fonts/rubik/Rubikitalic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Rubik';
+    src: local('Rubik Bold'), local('Rubik-Bold'), url('../fonts/rubik/Rubikbold.woff2') format('woff2'), url('../fonts/rubik/Rubikbold.woff') format('woff'), url('../fonts/rubik/Rubikbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Rubik';
+    src: local('Rubik Bold Italic'), local('Rubik-BoldItalic'), url('../fonts/rubik/Rubikbolditalic.woff2') format('woff2'), url('../fonts/rubik/Rubikbolditalic.woff') format('woff'), url('../fonts/rubik/Rubikbolditalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Rubik';
+    src: local('Rubik Black'), local('Rubik-Black'), url('../fonts/rubik/Rubikblack.woff2') format('woff2'), url('../fonts/rubik/Rubikblack.woff') format('woff'), url('../fonts/rubik/Rubikblack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Rubik';
+    src: local('Rubik Black Italic'), local('Rubik-BlackItalic'), url('../fonts/rubik/Rubikblackitalic.woff2') format('woff2'), url('../fonts/rubik/Rubikblackitalic.woff') format('woff'), url('../fonts/rubik/Rubikblackitalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
